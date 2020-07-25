@@ -3,6 +3,8 @@
 /*Global Modifications*/
 /*Step Two*/
 
+body {	  color: #444;
+	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;}
 h1 {
 	padding: 60px;
 	text-align: center;
