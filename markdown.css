@@ -39,12 +39,12 @@ footer {
 	
 	}
 
-#main {
+main {
 	transition: margin-left .5s;
 	padding: 20px;
 	}
 
-#wrapper {
+wrapper {
 	float: none;
 	}
 
@@ -157,7 +157,7 @@ right4 {
 	width: 25%;
 	}
 
-.left4 {
+left4 {
 	float: left;
 	margin: 1em 0em 1em 2em
 	width: 25%;
