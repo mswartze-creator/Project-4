@@ -39,10 +39,10 @@ div.container {
 
 header.title {
 	position: fixed;
-	top: 0;
-	height: 75px;
+	top: 0 1em;
+	height: 100px;
 	width: 100%;
-	background: white;
+	background: B0C4DE;
 	float: none;
 	}
 sidenav {
