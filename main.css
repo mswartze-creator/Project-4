@@ -1,177 +1,301 @@
 
 /* Please insert all your CSS code into this document */
 
-/*Global Modifications*/
-/*Step Two*/
-
-.h1 {
-	padding: 60px;
-	text-align: center;
-	background-color:black;
-	background-image:
-	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-	font-size: 30px;
-	width: 100%;
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
-.h2 {
-	padding:60px;
-	text-align: center;
-	}
+body {
+  color: #444;
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  font-size: 12px;
+  line-height: 1.5em;
+  padding: 1em;
+  margin: auto;
+  max-width: 42em;
+  background: #fefefe;
+}
 
-.banner {
-	display: block;
-	margin: auto;
-	width: 100%;
-	}
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
 
-.footer {
-	position: fixed;	
-	bottom: 0;
-	text-align: center;
-	width: 100%
-	height: 30px;
-	font-size: 30px;
-	
-	}
+a:visited {
+  color: #0b0080;
+}
 
-#main {
-	transition: margin-left .5s;
-	padding: 20px;
-	}
+a:hover {
+  color: #06e;
+}
 
-#wrapper {
-	float: none;
-	}
+a:active {
+  color: #faa700;
+}
 
-.sidenav {
-	height:100%; 
-	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	background-color: #111
-	overflow-x: hidden;
-	padding-top: 60px;
-	transition: 0.5s;
-	}
+a:focus {
+  outline: thin dotted;
+}
 
-/*Step Three*/
+a:hover,
+a:active {
+  outline: 0;
+}
 
-div.articles1 {
-	position: fixed;
-	left: 150px;
-	width: 760px;
-	height: 400px
-	padding: 0 .2em;
-	overflow: scroll;
-	}
+::-moz-selection {
+  background: rgba(255, 255, 0, 0.3);
+  color: #000;
+}
 
-aside.one {
-	position: fixed;
-	left: 0;
-	width: 150px;
-	padding: 30px;
-	}
+::selection {
+  background: rgba(255, 255, 0, 0.3);
+  color: #000;
+}
 
-img.body1 {
-	width: 300px;
-	}
+a::-moz-selection {
+  background: rgba(255, 255, 0, 0.3);
+  color: #0645ad;
+}
 
-/*Step Four*/
+a::selection {
+  background: rgba(255, 255, 0, 0.3);
+  color: #0645ad;
+}
 
-div.articles2 {
-	min-height: 450px;
-	min-width: 400px;
-	padding 0 30px;
-	overflow: scroll;
-	}
+p {
+  margin: 1em 0;
+}
 
-aside.two {
-	float: left;
-	min-width: 150px;
-	}
+img {
+  max-width: 100%;
+}
 
-.left2 {
-	float: left;
-	margin: 10px 35px 10px 0px;
-	width: 170px;
-	}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  color: #111;
+  line-height: 1em;
+}
 
-.right2 {
-	float: right;
-	margin; 10px 35px 10 px 0px;
-	width: 170px;
-	}
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
 
-/*Step Five*/
+h1 {
+  font-size: 2.5em;
+}
 
-div.articles3 {
-	padding: 0 1em;
-	overflow: scroll;
-	min-height: 450px;
-	min-width: 350px;
-	}
+h2 {
+  font-size: 2em;
+}
 
-aside.three {
-	float: left;
-	min-width: 150px;
-	}
+h3 {
+  font-size: 1.5em;
+}
 
-.right3 {
-	float: right;
-	margin: 1em 0em 1em 2em;
-	width: 25%;
-	}
+h4 {
+  font-size: 1.2em;
+}
 
-.left3 {
-	float: left;
-	margin: 1em 0em 1em 2em;
-	width: 25%;
-	}
+h5 {
+  font-size: 1em;
+}
 
-/*Step Six*/
+h6 {
+  font-size: 0.9em;
+}
 
-div.articles4 {
-	display: inline-block;
-	vertical-align: top;
-	width: 75%;
-	min-height: 450px;
-	min-width: 400px;
-	}
+blockquote {
+  color: #666666;
+  margin: 0;
+  padding-left: 3em;
+  border-left: 0.5em #eee solid;
+}
 
-aside.four {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	min-width: 150px;
-	}
+hr {
+  display: block;
+  border: 0;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #eee;
+  margin: 1em 0;
+  padding: 0;
+}
 
-.right4 {
-	float: right;
-	margin: 1em 0em 1em 2em
-	width: 25%;
-	}
+pre,
+code,
+kbd,
+samp {
+  color: #000;
+  font-family: monospace, monospace;
+  _font-family: 'courier new', monospace;
+  font-size: 0.98em;
+}
 
-.left4 {
-	float: left;
-	margin: 1em 0em 1em 2em
-	width: 25%;
-	}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 
-/*Step Seven*/
+b,
+strong {
+  font-weight: bold;
+}
 
-div.articles5 {
-  	 display: inline-block;
- 	 width: 200px;
- 	 height: 100px;
- 	 margin: 1em;
-	padding: 10px;
-	border:	 1em;
-	}	
+dfn {
+  font-style: italic;
+}
 
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+ul,
+ol {
+  margin: 1em 0;
+  padding: 0 0 0 2em;
+}
+
+li p:last-child {
+  margin: 0;
+}
+
+dd {
+  margin: 0 0 0 2em;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  vertical-align: top;
+}
+
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    max-width: 100%;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  hr {
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid black;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  @page :left {
+    margin: 15mm 20mm 15mm 10mm;
+  }
+
+  @page :right {
+    margin: 15mm 10mm 15mm 20mm;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
