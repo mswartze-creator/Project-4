@@ -1,44 +1,15 @@
-
 /* Global Modifications */
-/*Step Two*/
 
-ul {
-  list-style-type: circle;
-background-color: #B0C4DE
-}
-img:hover {
-  transform: scaleX(-1);
-}
-div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-img {max-width: 100%
- height: auto;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
-
-div.container {
-  text-align: center;
-  padding: 10px 20px;
-}
-	
-
-.h1 {
+h1 {
 	padding: .2em .5em 1em;
 	}
 
-.h2 {
+h2 {
 	padding: .2em;
 	text-align: center;
-	color: black
 	}
 
 .banner {
-	position: fixed;
-	background: light blue;
 	display: block;
 	margin: auto;
 	width: 80%;
@@ -46,22 +17,11 @@ div.container {
 
 header.title {
 	position: fixed;
-	top: 0 1em;
-	height: 100px;
-	width: 100%;
-	background: B0C4DE;
-	float: none;
-	}
-sidenav {
-	height:100%; 
-	width: 0;
-	position: fixed;
-	z-index: 1;
 	top: 0;
-	background-color: #111
-	overflow-x: hidden;
-	padding-top: 60px;
-	transition: 0.5s;
+	height: 75px;
+	width: 100%;
+	background: white;
+	float: none;
 	}
 	
 footer {
@@ -69,7 +29,7 @@ footer {
 	bottom: 0;
 	height: 100px;
 	width: 100%;
-	background: #B0C4DE;
+	background: white;
 	}
 
 #wrapper {
@@ -87,9 +47,7 @@ article p:last-of-type {
 
 
 /* Modifications to Page One / Fixed Position Layout */
-/*Step Three*/
 
-.one.html
 aside.one {
 	position: fixed;
 	left: 0;
@@ -111,9 +69,7 @@ img.body1 {
 	}
 
 /* Modifications to Page Two / Floating Position Layout */
-/*Step Four*/
 
-.two.html
 aside.two {
 	float: left;
 	min-width: 130px;
@@ -142,7 +98,6 @@ div.articles2 {
 
 /* Modifications to Page Three / Relative Position Layout */
 
-.three.html
 aside.three {
 	float: left;
 	min-width: 130px;
