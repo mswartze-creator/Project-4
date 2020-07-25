@@ -2,6 +2,10 @@
 /* Global Modifications */
 /*Step Two*/
 
+ul {
+  list-style-type: circle;
+background-color: #B0C4DE
+}
 img:hover {
   transform: scaleX(-1);
 }
