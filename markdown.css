@@ -1,177 +1,185 @@
-/* Please insert all your CSS code into this document */
 
-/*Global Modifications*/
-/*Step Two*/
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
 
 
-heading1 {
-	padding: 60px;
-	text-align: center;
-	background-color:black;
-	background-image:
-	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-	font-size: 30px;
+/* specific divs */
+.page-wrapper { 
+	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
 	width: 100%;
+	}
+
+header h1 { 
+	background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
+	margin-top: 10px;
+	display: block;
+	width: 219px;
+	height: 87px;
+	float: left;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+header h2 { 
+	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left; 
+	margin-top: 58px; 
+	margin-bottom: 40px; 
+	width: 200px; 
+	height: 18px; 
+	float: right;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+header {
+	padding-top: 20px;
+	height: 87px;
 }
 
-heading2 {
-	padding:60px;
+.summary {
+	clear: both; 
+	margin: 20px 20px 20px 10px; 
+	width: 160px; 
+	float: left;
+	}
+.summary p {
+	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
 	}
 
-banner {
-	display: block;
-	margin: auto;
-	width: 100%;
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	}
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
 	}
 
-footer {
-	position: fixed;	
-	bottom: 0;
-	text-align: center;
-	width: 100%
-	height: 30px;
-	font-size: 30px;
-	
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
 	}
 
-main {
-	transition: margin-left .5s;
-	padding: 20px;
+.sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
+.sidebar .wrapper { 
+	font: 10px verdana, sans-serif; 
+	background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y; 
+	padding: 10px; 
+	margin-top: 150px; 
+	width: 130px; 
+	}
+.sidebar h3.select { 
+	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
+	margin: 10px 0 5px 0; 
+	width: 97px; 
+	height: 16px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.archives { 
+	background: transparent url(http://csszengarden.com/001/h5.gif) no-repeat top left; 
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	height: 14px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.resources { 
+	background: transparent url(http://csszengarden.com/001/h6.gif) no-repeat top left; 
+	margin: 25px 0 5px 0; 
+	width:63px; 
+	height: 10px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 	}
 
-wrapper {
-	float: none;
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li {
+	line-height: 1.3em; 
+	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	color: #988F5E;
+	}
+.sidebar li a:visited {
+	color: #B3AE94;
 	}
 
-sidenav {
-	height:100%; 
-	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	background-color: #111
-	overflow-x: hidden;
-	padding-top: 60px;
-	transition: 0.5s;
+
+.extra1 {
+	background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat; 
+	position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;
 	}
-
-/*Step Three*/
-
-div.articles1 {
-	position: fixed;
-	left: 150px;
-	width: 760px;
-	height: 400px
-	padding: 0 .2em;
-	overflow: scroll;
-	}
-
-aside.one {
-	position: fixed;
-	left: 0;
-	width: 150px;
-	padding: 30px;
-	}
-
-img.body1 {
-	width: 300px;
-	}
-
-/*Step Four*/
-
-div.articles2 {
-	min-height: 450px;
-	min-width: 400px;
-	padding 0 30px;
-	overflow: scroll;
-	}
-
-aside.two {
-	float: left;
-	min-width: 150px;
-	}
-
-left2 {
-	float: left;
-	margin: 10px 35px 10px 0px;
-	width: 170px;
-	}
-
-right2 {
-	float: right;
-	margin; 10px 35px 10 px 0px;
-	width: 170px;
-	}
-
-/*Step Five*/
-
-div.articles3 {
-	padding: 0 1em;
-	overflow: scroll;
-	min-height: 450px;
-	min-width: 350px;
-	}
-
-aside.three {
-	float: left;
-	min-width: 150px;
-	}
-
-right3 {
-	float: right;
-	margin: 1em 0em 1em 2em;
-	width: 25%;
-	}
-
-left3 {
-	float: left;
-	margin: 1em 0em 1em 2em;
-	width: 25%;
-	}
-
-/*Step Six*/
-
-div.articles4 {
-	display: inline-block;
-	vertical-align: top;
-	width: 75%;
-	min-height: 450px;
-	min-width: 400px;
-	}
-
-aside.four {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	min-width: 150px;
-	}
-
-right4 {
-	float: right;
-	margin: 1em 0em 1em 2em
-	width: 25%;
-	}
-
-left4 {
-	float: left;
-	margin: 1em 0em 1em 2em
-	width: 25%;
-	}
-
-/*Step Seven*/
-
-div.articles5 {
-  	 display: inline-block;
- 	 width: 200px;
- 	 height: 100px;
- 	 margin: 1em;
-	padding: 10px;
-	border:	 1em;
-	}	
-
