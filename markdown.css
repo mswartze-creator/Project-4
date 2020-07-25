@@ -1,5 +1,28 @@
 /* Global Modifications */
 
+ul {
+  list-style-type: circle;
+background-color: #B0C4DE
+}
+img:hover {
+  transform: scaleX(-1);
+}
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {max-width: 100%
+ height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
 h1 {
 	padding: .2em .5em 1em;
 	}
@@ -20,7 +43,7 @@ header.title {
 	top: 0;
 	height: 75px;
 	width: 100%;
-	background: white;
+	background: B0C4DE;
 	float: none;
 	}
 	
@@ -29,7 +52,7 @@ footer {
 	bottom: 0;
 	height: 100px;
 	width: 100%;
-	background: white;
+	background: B0C4DE;
 	}
 
 #wrapper {
