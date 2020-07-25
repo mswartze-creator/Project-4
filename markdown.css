@@ -2,6 +2,9 @@
 /* Global Modifications */
 /*Step Two*/
 
+img:hover {
+  transform: scaleX(-1);
+}
 div.polaroid {
   width: 80%;
   background-color: white;
