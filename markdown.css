@@ -2,11 +2,12 @@
 /* Global Modifications */
 /*Step Two*/
 
-heading1 {
+
+.h1 {
 	padding: .2em .5em 1em;
 	}
 
-heading2 {
+.h2 {
 	padding: .2em;
 	text-align: center;
 	color: black
@@ -63,6 +64,7 @@ article p:last-of-type {
 /* Modifications to Page One / Fixed Position Layout */
 /*Step Three*/
 
+.one.html
 aside.one {
 	position: fixed;
 	left: 0;
@@ -86,6 +88,7 @@ img.body1 {
 /* Modifications to Page Two / Floating Position Layout */
 /*Step Four*/
 
+.two.html
 aside.two {
 	float: left;
 	min-width: 130px;
@@ -114,6 +117,7 @@ div.articles2 {
 
 /* Modifications to Page Three / Relative Position Layout */
 
+.three.html
 aside.three {
 	float: left;
 	min-width: 130px;
