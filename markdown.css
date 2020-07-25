@@ -7,13 +7,8 @@ background-color: #B0C4DE
 img:hover {
   transform: scaleX(-1);
 }
-div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
-img {max-width: 100%
+img {max-width: 100%;
  height: auto;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
@@ -36,6 +31,12 @@ h2 {
 	display: block;
 	margin: auto;
 	width: 80%;
+	}
+
+header-cont {
+	width: 100;
+	position: fixed;
+	top: 0px;
 	}
 
 header.title {
