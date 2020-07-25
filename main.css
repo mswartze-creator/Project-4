@@ -3,7 +3,7 @@
 /*Global Modifications*/
 /*Step Two*/
 
-.h1 {
+h1 {
 	padding: 60px;
 	text-align: center;
 	background-color:black;
@@ -18,18 +18,18 @@
 	width: 100%;
 }
 
-.h2 {
+h2 {
 	padding:60px;
 	text-align: center;
 	}
 
-.banner {
+banner {
 	display: block;
 	margin: auto;
 	width: 100%;
 	}
 
-.footer {
+footer {
 	position: fixed;	
 	bottom: 0;
 	text-align: center;
@@ -96,13 +96,13 @@ aside.two {
 	min-width: 150px;
 	}
 
-.left2 {
+left2 {
 	float: left;
 	margin: 10px 35px 10px 0px;
 	width: 170px;
 	}
 
-.right2 {
+right2 {
 	float: right;
 	margin; 10px 35px 10 px 0px;
 	width: 170px;
@@ -151,13 +151,13 @@ aside.four {
 	min-width: 150px;
 	}
 
-.right4 {
+right4 {
 	float: right;
 	margin: 1em 0em 1em 2em
 	width: 25%;
 	}
 
-.left4 {
+left4 {
 	float: left;
 	margin: 1em 0em 1em 2em
 	width: 25%;
