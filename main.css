@@ -1,8 +1,19 @@
+@import url("fontawesome-all.min.css");
 /* Please insert all your CSS code into this document */
 
 /*Global Modifications*/
 /*Step Two*/
 
+	body {
+	  color: #444;
+	  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	  font-size: 12px;
+	  line-height: 1.5em;
+	  padding: 1em;
+	  margin: auto;
+	  max-width: 42em;
+	  background: #F8F8FF;
+	}
 h1 {
 	padding: 60px;
 	text-align: center;
